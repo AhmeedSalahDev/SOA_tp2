@@ -32,7 +32,7 @@ public class Calculatrice implements ICalculatrice {
     public double division(double a, double b) throws DivisionParZeroException {
         if (b == 0) {
             // Transformée par JAX-WS en <soap:Fault> côté client
-            throw new DivisionParZeroException("Division par zéro impossible : b doit être différent de 0");
+            throw new DivisionParZeroException("Division par zéro impossible (b = 0)");
         }
         return a / b;
     }

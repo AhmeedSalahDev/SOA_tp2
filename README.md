@@ -82,7 +82,7 @@ Réponse attendue :
 ```
 
 `division` avec `b = 0` renvoie un **SOAP Fault** contenant le message
-« Division par zéro impossible : b doit être différent de 0 ».
+« Division par zéro impossible (b = 0) ».
 
 ## Démarche suivie (consigne du TP)
 
