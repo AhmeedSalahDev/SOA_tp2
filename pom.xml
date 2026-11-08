@@ -31,7 +31,9 @@
             <version>4.0.3</version>
         </dependency>
 
-        <!-- Annotations : @WebService, @WebMethod, @WebParam, @WebResult -->
+        <!-- Annotations : @WebService, @WebMethod, @WebParam, @WebResult
+             (demandée par l'énoncé ; depuis la version 4.0, ces annotations
+             sont aussi incluses dans jakarta.xml.ws-api) -->
         <dependency>
             <groupId>jakarta.jws</groupId>
             <artifactId>jakarta.jws-api</artifactId>
