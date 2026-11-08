@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:cal="http://calculatrice.soa.fss.tn/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cal:division>
+         <a>15</a>
+         <b>4</b>
+      </cal:division>
+   </soapenv:Body>
+</soapenv:Envelope>

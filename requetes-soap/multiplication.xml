@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:cal="http://calculatrice.soa.fss.tn/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cal:multiplication>
+         <a>5</a>
+         <b>3</b>
+      </cal:multiplication>
+   </soapenv:Body>
+</soapenv:Envelope>
